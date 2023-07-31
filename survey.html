@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+    <div class="questions">
+        <h1>Physical Fitness and Excercise Habits Survey</h1>
+        <h2>Introduction:</h2>
+        <p>We appreciate your interest in participating in our Physical Fitness and Exercise Habits Survey. Your responses will assist us in understanding the exercise patterns, fitness goals, and overall physical well-being of individuals like you. This survey contains a combination of multiple-choice and open-ended questions. Your answers will be anonymous, and we encourage you to answer honestly. Let's get started!</p>
+        <h3>Section 1: Demographics</h3>
+        <ul>
+            <li>Name:</li>
+            <input type="text" name="Name" id="name" placeholder="Enter your name" required><br>
+            <li>Email</li>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+        <li> Age:</li>
+        <input type="radio" name="age" id="age"> Under 18<br>
+        <input type="radio" name="age" id="age"> 18-24<br>
+        <input type="radio" name="age" id="age"> 25-34<br>
+        <input type="radio" name="age" id="age"> 35-44<br>
+        <input type="radio" name="age" id="age"> 45-54<br>
+        <input type="radio" name="age" id="age"> 55-64<br>
+        <input type="radio" name="age" id="age"> 65+
+
+        <li>Gender:</li>
+        <select id="gender">
+            <option value="">Select your gender</option>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+            <option value="3">Non-binary/Third gender</option>
+            <option value="4">Prefer not to say</option>
+        </select>
+        <li>Fitness Level:</li>
+        <select id="fitness level">
+            <option value="">Select an option</option>
+            <option value="1">Sedentary (little to no physical activity)</option>
+            <option value="2">Beginner (just starting to exercise regularly)</option>
+            <option value="3">Intermediate (moderately active and experienced)</option>
+            <option value="4">Advanced (regularly engaged in intense workouts)</option>
+        </select>
+        <hr>
+
+
+        <h3>Section 2: Excercise and Physical Activity</h3>
+        <li>How many days per week do you engaage in physical excercise or activuity?</li>
+        <input type="radio" name="excercise" id="excercise"> 0 days (sedentary lifestyle)<br>
+        <input type="radio" name="excercise" id="excercise"> 1-2 days<br>
+        <input type="radio" name="excercise" id="excercise"> 3-4 days<br>
+        <input type="radio" name="excercise" id="excercise"> 5-6 days<br>
+        <input type="radio" name="excercise" id="excercise"> 7 days(daily)<br>
+
+        <li>What types of excerscise do you enjoy?(Select all that applies)</li>
+        <input type="checkbox" name="checkbox" id="checkbox"> Cardiovascular (e.g., running, cycling, dancing)<br>
+        <input type="checkbox" name="checkbox" id="checkbox"> Strength training (e.g., weightlifting, resistance exercises)<br>
+        <input type="checkbox" name="checkbox" id="checkbox"> Flexibility exercises (e.g., yoga, stretching)<br>
+        <input type="checkbox" name="checkbox" id="checkbox"> Group fitness classes (e.g., Zumba, HIIT)<br>
+        <input type="checkbox" name="checkbox" id="checkbox"> Sports (e.g., basketball, soccer)<br>
+        <input type="checkbox" name="checkbox" id="checkbox"> Outdoor activities (e.g., hiking, swimming)<br>
+        <input type="checkbox" name="checkbox" id="checkbox"> Other:<br>
+        <textarea id="other" name="other" rows="3" cols="30" placeholder="Please specify..."></textarea>
+
+        <li>Do you prefer working out alone or with others?</li>
+        <select>
+            <option value="">Select an option</option>
+            <option value="1">Alone</option>
+            <option value="2">With a workout buddy</option>
+            <option value="3">Both, depending on the activity</option>
+        </select>
+        <hr>
+
+        <h3>Section 3: Fitness Goals</h3>
+        <li>What are your primary fitness goals? (Select all that apply)</li>
+        <input type="checkbox" name="checkbox" id="checkbox"> Weight loss<br>
+        <input type="checkbox" name="checkbox" id="checkbox"> Muscle gain<br>
+        <input type="checkbox" name="checkbox" id="checkbox"> Improved cardiovascular endurance<br>
+        <input type="checkbox" name="checkbox" id="checkbox"> Flexibility and mobility<br>
+        <input type="checkbox" name="checkbox" id="checkbox"> Stress relief<br>
+        <input type="checkbox" name="checkbox" id="checkbox"> General health and well-being<br>
+        <input type="checkbox" name="checkbox" id="checkbox"> Sprots performance<br>
+        <input type="checkbox" name="checkbox" id="checkbox"> Other:<br>
+        <textarea id="other" name="other" rows="3" cols="30" placeholder="Please specify..."></textarea>
+
+        <li>How do you track your fitness progress? (Select all that apply)</li>
+        <input type="checkbox" name="checkbox" id="checkbox"> Body measurements (weight, waist, etc.)<br>
+        <input type="checkbox" name="checkbox" id="checkbox"> Fitness apps or wearable devices<br>
+        <input type="checkbox" name="checkbox" id="checkbox"> Workout journal/notebook<br>
+        <input type="checkbox" name="checkbox" id="checkbox"> Personal trainer/coach<br>
+        <input type="checkbox" name="checkbox" id="checkbox">None, I dont track my progress<br>
+        <hr>
+
+        <h3>Section 4: Challenges and Motivation</h3>
+        <li>What are the primary challenges you face in maintaining a consistent excercise routine? (Select all that apply)</li>
+        <input type="checkbox" name="checkbox" id="checkbox"> Lack of time<br>
+        <input type="checkbox" name="checkbox" id="checkbox"> Lack of motivation<br>
+        <input type="checkbox" name="checkbox" id="checkbox"> Difficulty staying consistent<br>
+        <input type="checkbox" name="checkbox" id="checkbox"> Lack of access to fitness facilities<br>
+        <input type="checkbox" name="checkbox" id="checkbox"> Physical limitations or injuries<br>
+        <input type="checkbox" name="checkbox" id="checkbox"> Boredom with the routine<br>
+        <input type="checkbox" name="checkbox" id="checkbox"> Other:<br>
+        <textarea id="other" name="other" rows="2" cols="20" placeholder="Please specify..."></textarea>
+
+        <li>What motivates you to stay committed to your fitness routine? (Select all that apply)</li>
+        <input type="checkbox" name="checkbox" id="checkbox"> Achieving fitness goals<br>
+        <input type="checkbox" name="checkbox" id="checkbox"> Improved physical appearance<br>
+        <input type="checkbox" name="checkbox" id="checkbox"> Increased energy and mood<br>
+        <input type="checkbox" name="checkbox" id="checkbox"> Support from friends or family<br>
+        <input type="checkbox" name="checkbox" id="checkbox"> Participation in fitness events (races, competitions)<br>
+        <input type="checkbox" name="checkbox" id="checkbox"> Other: <br>
+        <textarea id="other" name="other" rows="2" cols="20" placeholder="Please specify..."></textarea>
+        <h3>Section 5: Additional comments</h3>
+        <li>Is there anything specific you would like to share about your fitness journey or any additional comment?</li>
+        <textarea id="comments" name="comments" rows="3" cols="30" placeholder="Enter your comment here..."></textarea>
+        <hr>
+
+        <h3>Conclusion:</h3>
+        <p>Thank you for participating in our Physical Fitness and Exercise Habits Survey. Your responses will contribute to our understanding of exercise preferences, fitness goals, and challenges faced by individuals like you. Your feedback will help us tailor our fitness programs and services to better meet the needs of our community. If you have any further thoughts or suggestions, please feel free to share them below. Your input is highly valuable to us.</p>
+        <hr>
+        </ul>
+    </div>
+</body>
+</html>

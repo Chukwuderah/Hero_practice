@@ -1,0 +1,16 @@
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFAlMubuk5lP3IqrF1cpl59MzVi_VG0CU42mjaQkPPf9cfuJ7wi0ZlYE46N_45yraDq6k&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.questions {
+    background-color:darkslategrey;
+    color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 700px;
+}
