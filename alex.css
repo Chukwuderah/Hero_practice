@@ -1,0 +1,71 @@
+body {
+    background-color: beige;
+}
+
+.frame {
+    border: 3px solid darkgoldenrod;
+    width: 70%;
+    height: 600px;
+    margin: 20px auto;
+}
+
+.canvas {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+
+.top {
+    background-color:darkgoldenrod;
+    width: 100%;
+    height: 40px;
+}
+
+p {
+    font-style: italic;
+}
+
+h4 {
+    /*padding: 20px;*/
+}
+
+.date-image-container {
+    display: inline-flex;
+    align-items: center;
+}
+
+.date,
+.year {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+img {
+    max-width: 100px; /* Set the maximum width of the image */
+    height: auto;
+}
+
+
+.name, .me {
+    color: darkgoldenrod;
+    font-family: 'Brush Script MT', cursive;
+}
+
+hr {
+    flex-grow: 1;
+    border: none;
+    height: 1px;
+    background-color: black;
+    margin: 0px auto;
+    width: 30%;
+}
+
+.line {
+    width: 25%;
+}
+
+.bottom {
+    background-color: darkgoldenrod;
+    width: 100%;
+    height: 40px;
+}
